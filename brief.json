@@ -1,0 +1,303 @@
+{
+  "run_id": "run-1779244995844",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Aide les artisans d'art à quantifier et communiquer leur engagement écologique, en calculant des métriques d'…",
+    "notes": "Estimez l'impact environnemental de vos créations artisanales (matériaux, processus) et calculez la contribution carbone ou écologique associée.\nTargets eco-conscious artisans. Theme: Mechanical Botanical for its organic tech feel. Structure: Stacked Spotlight to highlight the calculation steps and results.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "calculator",
+      "tool"
+    ],
+    "forced_design_theme": "mechanical-botanical",
+    "forced_structure_preset": "stacked-spotlight",
+    "site_idea_title": "Calculateur d'Éco-Contribution pour Artisans d'Art",
+    "site_idea_summary": "Estimez l'impact environnemental de vos créations artisanales (matériaux, processus) et calculez la contribution carbone ou écologique associée."
+  },
+  "site_spec": {
+    "slug": "calculateur-d-eco-contribution-pour-artisans-d-art-2",
+    "theme": {
+      "name": "Mechanical Botanical",
+      "slug": "mechanical-botanical",
+      "eyebrow": "Organic Systems",
+      "family": "mechanical-botanical",
+      "moods": [
+        "organic",
+        "futuristic",
+        "balanced",
+        "fresh"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "eco tools",
+        "wellness tools",
+        "sustainability",
+        "travel tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "organic",
+        "tech",
+        "botanical",
+        "iridescent",
+        "fresh"
+      ],
+      "token_index": [
+        "balanced",
+        "botanical",
+        "calculator",
+        "consumer",
+        "eco",
+        "fresh",
+        "futuristic",
+        "generator",
+        "iridescent",
+        "mechanical",
+        "organic",
+        "sustainability",
+        "systems",
+        "tech",
+        "tool",
+        "tools",
+        "travel",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Manrope\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
+        "surface": "rgba(8, 28, 21, 0.74)",
+        "surface_border": "rgba(128,237,153,0.18)",
+        "text": "#f1fff4",
+        "muted": "#b7e4c7",
+        "accent": "#80ed99",
+        "accent_alt": "#72ddf7",
+        "hero_glow": "rgba(128, 237, 153, 0.18)",
+        "button_text": "#062012",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Stacked Spotlight",
+      "slug": "stacked-spotlight",
+      "hero_variant": "stacked",
+      "proof_variant": "steps",
+      "section_order": [
+        "proof",
+        "seo",
+        "features",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "spotlight",
+      "moods": [
+        "editorial",
+        "focused",
+        "premium"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "premium services",
+        "planning",
+        "renovation",
+        "advice"
+      ],
+      "keywords": [
+        "spotlight",
+        "stacked",
+        "story",
+        "premium"
+      ],
+      "token_index": [
+        "advice",
+        "calculator",
+        "editorial",
+        "faq",
+        "features",
+        "focused",
+        "generator",
+        "planning",
+        "premium",
+        "proof",
+        "renovation",
+        "seo",
+        "services",
+        "spotlight",
+        "stacked",
+        "steps",
+        "story",
+        "tool"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Calculateur d'Éco-Contribution pour Artisans d'Art",
+    "tagline": "Votre artisanat, une empreinte mesurable.",
+    "description": "Estimez l",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Calculer l'Éco-Contribution",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Calculer l'Éco-Contribution",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "console",
+    "faq_topic": "Calculateur d'Éco-Contribution pour Artisans d'Art",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Calculateur d'Éco-Contribution pour Artisans d'Art ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Calculateur d'Éco-Contribution pour Artisans d'Art et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Calculateur d&#x27;Éco-Contribution pour Artisans d&#x27;Art | Votre artisanat, une empreinte mesurable.</title>\n    <meta name=\"description\" content=\"Estimez l\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:ital@0;1&display=swap');\n        :root {\n            --color-primary: #3A7D44;\n            --color-secondary: #C8E087;\n            --color-accent: #E8D2AE;\n            --color-text: #333;\n            --color-background: #F8F7F3;\n            --color-card-background: #FFFFFF;\n            --color-border: #E0E0E0;\n            --font-display: 'Montserrat', sans-serif;\n            --font-body: 'Lora', serif;\n            --spacing-unit: 1rem;\n        }\n        body {\n            font-family: var(--font-body);\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n        h1, h2, h3 {\n            font-family: var(--font-display);\n            color: var(--color-primary);\n            line-height: 1.2;\n            margin-bottom: var(--spacing-unit);\n        }\n        header {\n            background-color: var(--color-card-background);\n            width: 100%;\n            padding: calc(2 * var(--spacing-unit)) 0;\n            text-align: center;\n            border-bottom: 1px solid var(--color-border);\n            box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n        }\n        header h1 {\n            color: var(--color-primary);\n            font-size: 2.5rem;\n            margin-bottom: 0.5rem;\n        }\n        header p {\n            max-width: 800px;\n            margin: 0 auto;\n            font-size: 1.1rem;\n            color: #555;\n        }\n        .container {\n            width: 100%;\n            max-width: 960px;\n            padding: var(--spacing-unit);\n            box-sizing: border-box;\n        }\n        section {\n            background-color: var(--color-card-background);\n            padding: calc(2 * var(--spacing-unit));\n            margin-bottom: calc(2 * var(--spacing-unit));\n            border-radius: 8px;\n            box-shadow: 0 4px 8px rgba(0,0,0,0.05);\n            display: flex;\n            flex-direction: column;\n            gap: var(--spacing-unit);\n        }\n        .section-intro {\n            background-color: #F0F5ED;\n            border-left: 5px solid var(--color-primary);\n        }\n        .section-tool {\n            background-color: var(--color-card-background);\n        }\n        .section-results {\n            background-color: #EBF7EB;\n            border-left: 5px solid var(--color-secondary);\n        }\n        .section-seo {\n            background-color: #F8F7F3;\n            border-top: 1px solid var(--color-border);\n            padding: calc(3 * var(--spacing-unit)) var(--spacing-unit);\n            text-align: center;\n            margin-bottom: 0;\n            box-shadow: none;\n            border-radius: 0;\n        }\n        form {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 1.5rem;\n        }\n        .form-group {\n            display: flex;\n            flex-direction: column;\n        }\n        label {\n            font-family: var(--font-display);\n            font-weight: 600;\n            margin-bottom: 0.5rem;\n            color: var(--color-primary);\n            font-size: 0.9rem;\n            text-transform: uppercase;\n            letter-spacing: 0.05em;\n        }\n        input[type=\"number\"], select {\n            padding: 0.8rem 1rem;\n            border: 1px solid var(--color-border);\n            border-radius: 4px;\n            font-size: 1rem;\n            font-family: var(--font-body);\n            width: 100%;\n            box-sizing: border-box;\n            background-color: #FAFAFA;\n        }\n        input[type=\"number\"]:focus, select:focus {\n            outline: none;\n            border-color: var(--color-secondary);\n            box-shadow: 0 0 0 2px rgba(199, 224, 135, 0.4);\n        }\n        button {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 1rem 1.5rem;\n            border: none;\n            border-radius: 4px;\n            font-size: 1.1rem;\n            font-family: var(--font-display);\n            font-weight: 700;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.1s ease;\n            width: fit-content;\n            margin-top: 1rem;\n        }\n        button:hover {\n            background-color: #316C3A;\n            transform: translateY(-1px);\n        }\n        button:active {\n            transform: translateY(0);\n        }\n        #tool-result {\n            margin-top: 1.5rem;\n            padding: 1.5rem;\n            background-color: #FDFDFD;\n            border: 1px dashed var(--color-secondary);\n            border-radius: 6px;\n            font-size: 1.1rem;\n            line-height: 1.8;\n            min-height: 100px;\n        }\n        #tool-result h3 {\n            color: var(--color-primary);\n            margin-top: 0;\n            font-size: 1.8rem;\n        }\n        .result-group {\n            margin-bottom: 1rem;\n        }\n        .result-group h4 {\n            font-family: var(--font-display);\n            color: #555;\n            margin-bottom: 0.5rem;\n            font-size: 1.2rem;\n        }\n        .result-group ul {\n            list-style-type: none;\n            padding: 0;\n            margin: 0;\n        }\n        .result-group li {\n            background-color: #EBF7EB;\n            padding: 0.8rem 1.2rem;\n            margin-bottom: 0.5rem;\n            border-radius: 4px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            font-family: var(--font-display);\n            font-weight: 600;\n            color: var(--color-primary);\n            border-left: 4px solid var(--color-primary);\n        }\n        .result-group li span:first-child {\n            flex-grow: 1;\n        }\n\n        .cta-box {\n            background-color: var(--color-secondary);\n            color: var(--color-text);\n            padding: 2rem;\n            border-radius: 8px;\n            text-align: center;\n            margin-top: 2rem;\n        }\n        .cta-box h3 {\n            color: var(--color-primary);\n            font-size: 1.8rem;\n            margin-bottom: 1rem;\n        }\n        .cta-box p {\n            font-size: 1.1rem;\n            margin-bottom: 1.5rem;\n        }\n        .cta-box button {\n            background-color: var(--color-primary);\n            margin: 0;\n        }\n        .testimonial {\n            background-color: #FBFDFB;\n            border-left: 4px solid var(--color-accent);\n            padding: 1.5rem;\n            margin-top: 2rem;\n            font-style: italic;\n            color: #555;\n            font-size: 1rem;\n        }\n        .testimonial p:last-child {\n            text-align: right;\n            font-weight: 600;\n            color: var(--color-primary);\n            margin-top: 1rem;\n        }\n        footer {\n            width: 100%;\n            background-color: var(--color-primary);\n            color: white;\n            text-align: center;\n            padding: 2rem 0;\n            margin-top: 2rem;\n            font-size: 0.9rem;\n        }\n        .seo-text {\n            font-size: 0.9rem;\n            line-height: 1.5;\n            color: #666;\n            text-align: left;\n            padding: 0 var(--spacing-unit);\n        }\n        .seo-text h2 {\n            font-size: 1.5rem;\n            color: var(--color-primary);\n            margin-bottom: 1rem;\n            text-align: center;\n        }\n        .seo-text p {\n            margin-bottom: 1rem;\n        }\n        .seo-text ul {\n            list-style-type: disc;\n            margin-left: 20px;\n            margin-bottom: 1rem;\n        }\n        .seo-text a {\n            color: var(--color-primary);\n            text-decoration: none;\n        }\n        .seo-text a:hover {\n            text-decoration: underline;\n        }\n\n        @media (min-width: 768px) {\n            form {\n                grid-template-columns: 1fr 1fr;\n            }\n            .section-tool {\n                display: grid;\n                grid-template-columns: 2fr 1fr;\n                gap: 2rem;\n                align-items: start;\n            }\n            .section-tool > div:first-child {\n                grid-column: 1 / 2;\n            }\n            .section-tool > div:last-child {\n                grid-column: 2 / 3;\n                background-color: #F8FDF8;\n                padding: 1.5rem;\n                border-radius: 6px;\n                border: 1px solid var(--color-border);\n            }\n            #tool-result {\n                min-height: auto;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://calculateur-d-eco-contribution-pour-artisans-d-art-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Calculateur d&#x27;Éco-Contribution pour Artisans d&#x27;Art\">\n    <meta property=\"og:description\" content=\"Estimez l\">\n    <meta property=\"og:url\" content=\"https://calculateur-d-eco-contribution-pour-artisans-d-art-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Calculateur d'Éco-Contribution pour Artisans d'Art\", \"description\": \"Estimez l\", \"url\": \"https://calculateur-d-eco-contribution-pour-artisans-d-art-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"calculateur-d-eco-contribution-pour-artisans-d-art-2\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <div class=\"container\">\n            <h1>Calculateur d'Éco-Contribution pour Artisans d'Art</h1>\n            <p>Estimez l'impact environnemental de vos créations artisanales (matériaux, processus) et calculez la contribution carbone ou écologique associée. Un geste concret pour un artisanat plus durable.</p>\n        </div>\n    </header>\n\n    <main class=\"container\">\n        <section class=\"section-intro\">\n            <h2>Votre artisanat, une empreinte mesurable.</h2>\n            <p>Dans l'univers délicat et passionnant de l'artisanat d'art, chaque matière, chaque geste, raconte une histoire. Aujourd'hui, cette histoire doit aussi parler d'écologie. Notre calculateur est conçu pour vous, artisans soucieux de l'environnement, afin de traduire votre engagement en chiffres concrets et en pistes d'amélioration.</p>\n            <p>Découvrez comment vos choix de matériaux et vos méthodes de fabrication impactent la planète. Prenez en main votre transition écologique.</p>\n        </section>\n\n        <section class=\"section-tool\">\n            <div>\n                <h2>Mesurez l'Éco-Empreinte de vos Créations</h2>\n                <p>Renseignez les détails de votre dernière pièce ou d'un projet type. Plus les informations sont précises, plus l'estimation le sera.</p>\n                <form id=\"tool-form\">\n                    <div class=\"form-group\">\n                        <label for=\"material-type\">Type de Matériau Principal</label>\n                        <select id=\"material-type\" required>\n                            <option value=\"bois\">Bois (local, certifié)</option>\n                            <option value=\"metal\">Métal (recyclé)</option>\n                            <option value=\"ceramique\">Céramique (argile locale)</option>\n                            <option value=\"textile_naturel\">Textile (fibres naturelles, bio)</option>\n                            <option value=\"textile_synthetique\">Textile (fibres synthétiques)</option>\n                            <option value=\"papier\">Papier (recyclé)</option>\n                            <option value=\"plastique\">Plastique (recyclé)</option>\n                            <option value=\"autre\">Autre / Mixte</option>\n                        </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"material-weight\">Poids du Matériau Principal (kg)</label>\n                        <input type=\"number\" id=\"material-weight\" value=\"1\" min=\"0.1\" step=\"0.1\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"process-complexity\">Complexité du Processus de Fabrication</label>\n                        <select id=\"process-complexity\" required>\n                            <option value=\"simple\">Simple (faible énergie)</option>\n                            <option value=\"moyen\">Moyen (énergie modérée)</option>\n                            <option value=\"complexe\">Complexe (haute énergie)</option>\n                        </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"local-sourcing\">Pourcentage d'approvisionnement local (%)</label>\n                        <input type=\"number\" id=\"local-sourcing\" value=\"50\" min=\"0\" max=\"100\" step=\"5\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"waste-reduction\">Mesures de réduction des déchets (0-100%)</label>\n                        <input type=\"number\" id=\"waste-reduction\" value=\"25\" min=\"0\" max=\"100\" step=\"5\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"durability\">Durabilité estimée du produit (années)</label>\n                        <input type=\"number\" id=\"durability\" value=\"5\" min=\"1\" step=\"1\" required>\n                    </div>\n                    <button type=\"submit\" id=\"tool-submit\">Calculer l'Éco-Contribution</button>\n                </form>\n            </div>\n            <div>\n                <h3>Comprendre vos résultats</h3>\n                <div id=\"tool-result\">\n                    <p id=\"result-detail\">Vos estimations apparaîtront ici après le calcul. Elles vous donneront une indication précieuse sur l'empreinte environnementale de votre création.</p>\n                </div>\n            </div>\n        </section>\n\n        <section class=\"section-results\">\n            <h2>Interprétez et Agissez</h2>\n            <p>Les chiffres ne sont qu'un point de départ. Comprenez ce qu'ils signifient pour votre atelier et explorez les pistes pour un impact encore plus positif.</p>\n            <div class=\"cta-box\">\n                <h3>Passez à l'action !</h3>\n                <p>Chaque petite optimisation compte. Réduisez votre empreinte, valorisez vos démarches, et inspirez votre clientèle.</p>\n                <button data-affiliate-slot=\"eco-guide\">Découvrir notre Guide Éco-Artisan</button>\n            </div>\n            <div class=\"testimonial\">\n                <p>\"Grâce à cet outil, j'ai réalisé l'impact de mes vernis et j'ai pu trouver des alternatives. Mes clients apprécient ma transparence !\"</p>\n                <p>— Sophie D., Céramiste, Lyon</p>\n            </div>\n        </section>\n    </main>\n\n    <footer class=\"section-seo\">\n        <div class=\"container seo-text\">\n            <h2>Optimisez votre démarche RSE artisanale avec notre calculateur</h2>\n            <p>Les artisans d'art jouent un rôle crucial dans l'économie locale et la préservation des savoir-faire. Cependant, l'impact environnemental de la production artisanale est une préoccupation croissante. Notre <strong>calculateur d'éco-contribution</strong> est un outil essentiel pour tout artisan soucieux de mesurer et d'améliorer son empreinte écologique.</p>\n            <p>Que vous soyez créateur de bijoux, ébéniste, céramiste, ou maroquinier, comprendre l'impact de vos <em>matières premières</em> (bois certifié, métal recyclé, textiles bio) et de vos <em>processus de fabrication</em> (consommation énergétique, gestion des déchets) est la première étape vers une pratique plus durable. Cet outil vous permet de :</p>\n            <ul>\n                <li>Calculer l'<strong>empreinte carbone</strong> de vos créations.</li>\n                <li>Évaluer l'efficacité de votre <strong>approvisionnement local</strong>.</li>\n                <li>Quantifier l'impact de vos efforts de <strong>réduction des déchets</strong>.</li>\n                <li>Mettre en valeur la <strong>durabilité de vos produits</strong> auprès de vos clients.</li>\n            </ul>\n            <p>Fini les approximations ! Obtenez des indicateurs précis pour communiquer de manière transparente sur votre engagement environnemental. Notre plateforme vous aide à identifier les leviers d'action pour des choix plus responsables, de l'atelier à la livraison. Intégrez l'écoconception au cœur de votre métier d'art et démarquez-vous sur le marché des produits durables. Pour en savoir plus sur l'artisanat durable et les certifications écologiques, visitez notre <a href=\"#\" data-affiliate-slot=\"blog-eco-artisan\">blog</a>.</p>\n        </div>\n        <p>&copy; 2024 Éco-Artisanat. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n\n            const materialType = document.getElementById('material-type').value;\n            const materialWeight = parseFloat(document.getElementById('material-weight').value);\n            const processComplexity = document.getElementById('process-complexity').value;\n            const localSourcing = parseFloat(document.getElementById('local-sourcing').value) / 100;\n            const wasteReduction = parseFloat(document.getElementById('waste-reduction').value) / 100;\n            const durability = parseFloat(document.getElementById('durability').value);\n\n            let baseCarbonImpact = 0; // en kg CO2e par kg de matériau\n            let baseEcologicalContribution = 0; // score abstrait\n\n            // Facteurs d'impact basés sur des moyennes simplifiées\n            const carbonFactors = {\n                'bois': 0.5,\n                'metal': 5, // pour métal non recyclé, recyclé serait moindre\n                'ceramique': 1.5,\n                'textile_naturel': 3,\n                'textile_synthetique': 6,\n                'papier': 1.2,\n                'plastique': 2.5, // pour plastique vierge, recyclé serait moindre\n                'autre': 3\n            };\n\n            const ecologicalFactors = { // plus le chiffre est bas, mieux c'est\n                'bois': 2,\n                'metal': 8,\n                'ceramique': 4,\n                'textile_naturel': 3,\n                'textile_synthetique': 9,\n                'papier': 3,\n                'plastique': 7,\n                'autre': 5\n            };\n\n            baseCarbonImpact = carbonFactors[materialType] * materialWeight;\n            baseEcologicalContribution = ecologicalFactors[materialType] * materialWeight;\n\n            // Ajustement pour la complexité du processus (consommation d'énergie)\n            const processMultipliers = {\n                'simple': 1,\n                'moyen': 1.5,\n                'complexe': 2\n            };\n            baseCarbonImpact *= processMultipliers[processComplexity];\n            baseEcologicalContribution *= processMultipliers[processComplexity];\n\n            // Bonus/Malus pour l'approvisionnement local (réduit l'impact lié au transport)\n            baseCarbonImpact *= (1 - (localSourcing * 0.2)); // 20% de réduction max pour 100% local\n            baseEcologicalContribution *= (1 - (localSourcing * 0.1));\n\n            // Bonus pour la réduction des déchets\n            baseCarbonImpact *= (1 - (wasteReduction * 0.15)); // 15% de réduction max pour 100% déchets évités\n            baseEcologicalContribution *= (1 - (wasteReduction * 0.08));\n\n            // Bonus pour la durabilité (impact dilué sur le temps)\n            baseCarbonImpact /= (durability / 2); // Si dure 10 ans, l'impact annuel est 5x moins\n            baseEcologicalContribution /= (durability / 3);\n\n            // Conversion pour des valeurs plus intuitives\n            const finalCarbonContribution = baseCarbonImpact * 10; // kg CO2e pour 1 an d'utilisation\n            const finalEcologicalScore = (100 - (baseEcologicalContribution / 2)).toFixed(0); // Score de 0 à 100, 100 étant le meilleur\n\n            let ecoRating = '';\n            if (finalEcologicalScore >= 80) {\n                ecoRating = 'Excellente';\n            } else if (finalEcologicalScore >= 60) {\n                ecoRating = 'Très Bonne';\n            } else if (finalEcologicalScore >= 40) {\n                ecoRating = 'Bonne';\n            } else {\n                ecoRating = 'À Améliorer';\n            }\n\n            const resultDiv = document.getElementById('tool-result');\n            resultDiv.innerHTML = `\n                <h3>Résultats de votre Éco-Contribution</h3>\n                <div class=\"result-group\">\n                    <h4>Impact Carbone Estimé</h4>\n                    <ul>\n                        <li><span>Émissions de CO2e estimées:</span> <strong>${finalCarbonContribution.toFixed(2)} kg</strong></li>\n                        <li><small><em>(Équivalent à ${ (finalCarbonContribution / 0.12).toFixed(0)} km en voiture moyenne ou la recharge de ${ (finalCarbonContribution / 0.008).toFixed(0)} smartphones)</em></small></li>\n                    </ul>\n                </div>\n                <div class=\"result-group\">\n                    <h4>Score Écologique Global</h4>\n                    <ul>\n                        <li><span>Votre score:</span> <strong>${finalEcologicalScore} / 100</strong></li>\n                        <li><span>Évaluation:</span> <strong>${ecoRating}</strong></li>\n                    </ul>\n                </div>\n                <p><em>Ces chiffres sont des estimations simplifiées. Ils sont conçus pour vous donner une indication et non un bilan carbone certifié.</em></p>\n            `;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
